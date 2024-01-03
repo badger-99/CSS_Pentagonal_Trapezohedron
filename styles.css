@@ -12,9 +12,9 @@ body {
 }
 
 .pentagonal-trapezohedron {
-    /* transform-origin: 50% 50%; */
+  /* transform-origin: 50% 50%; */
   transform-style: preserve-3d;
-    /* transform: rotateY(90deg) rotateZ(90deg); */
+  /* transform: rotateY(90deg) rotateZ(90deg); */
   animation: spin 30s infinite linear;
   position: relative;
   width: 128px;
@@ -44,7 +44,8 @@ body {
 }
 #bottom {
   /* face 2 */
-  transform: rotateX(-230deg) rotateY(-60deg) rotateZ(-30deg) translateX(-20px) translateY(40px) translateZ(50px);
+  transform: rotateX(-230deg) rotateY(-60deg) rotateZ(-30deg) translateX(-20px)
+    translateY(40px) translateZ(50px);
 }
 #front {
   /* face 3 */
@@ -63,32 +64,32 @@ body {
 #front-right {
   /* face 6 */
   /* transform-origin: 50% 0%; */
-  transform: rotateX(45deg) rotateY(0deg) rotateZ(0deg) translateX(0px)
-    translateY(-64px) translateZ(90px);
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translateX(0px)
+    translateY(-64px) translateZ(-50px);
 }
 #front-bottom {
   /* face 7 */
   /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(62deg) translateX(56px)
-    translateY(-98px) translateZ(0px);
+    translateY(-98px) translateZ(-50px);
 }
 #front-left {
   /* face 8 */
   /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(144deg) translateX(37px)
-    translateY(-178px) translateZ(0px);
+    translateY(-178px) translateZ(-50px);
 }
 #back-top {
   /* face 9 */
   /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(-124deg) translateX(-52px)
-    translateY(-164px) translateZ(0px);
+    translateY(-164px) translateZ(-50px);
 }
 #back-right {
   /* face 10 */
   /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(-62deg) translateX(-56px)
-    translateY(-98px) translateZ(0px);
+    translateY(-98px) translateZ(-50px);
 }
 
 @keyframes spin {
@@ -97,5 +98,5 @@ body {
   }
   100% {
     transform: rotateX(-20deg) rotateY(740deg);
-  } 
+  }
 }
