@@ -55,9 +55,9 @@ body {
 /* bottom haLf */
 #front-right {
   /* face 6 */
-  transform-origin: 50% 0%;
-  transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translateX(0px)
-    translateY(-64px) translateZ(0px);
+  /* transform-origin: 50% 0%; */
+  transform: rotateX(45deg) rotateY(0deg) rotateZ(0deg) translateX(0px)
+    translateY(-64px) translateZ(90px);
 }
 #front-bottom {
   /* face 7 */
