@@ -8,6 +8,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background-color: rgb(37, 37, 37);
 }
 
 .pentagonal-trapezohedron {
@@ -29,9 +30,10 @@ body {
   height: 128px;
   line-height: 128px;
   clip-path: polygon(50% 20%, 80% 50%, 50% 100%, 20% 50%);
+  color: antiquewhite;
   text-align: center;
   box-shadow: inset 0px 0px 0px 1px rgba(10, 0, 0, 0.8);
-  background: rgba(190, 88, 0, 0.6);
+  background: rgba(230, 138, 18, 0.6);
   display: block;
   position: absolute;
 }
