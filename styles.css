@@ -68,25 +68,25 @@ body {
 }
 #front-bottom {
   /* face 7 */
-  transform-origin: 50% 0%;
+  /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(62deg) translateX(56px)
     translateY(-98px) translateZ(0px);
 }
 #front-left {
   /* face 8 */
-  transform-origin: 50% 0%;
+  /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(144deg) translateX(37px)
     translateY(-178px) translateZ(0px);
 }
 #back-top {
   /* face 9 */
-  transform-origin: 50% 0%;
+  /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(-124deg) translateX(-52px)
     translateY(-164px) translateZ(0px);
 }
 #back-right {
   /* face 10 */
-  transform-origin: 50% 0%;
+  /* transform-origin: 50% 0%; */
   transform: rotateX(90deg) rotateY(0deg) rotateZ(-62deg) translateX(-56px)
     translateY(-98px) translateZ(0px);
 }
